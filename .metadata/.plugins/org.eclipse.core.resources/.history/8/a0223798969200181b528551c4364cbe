@@ -11,7 +11,7 @@ import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
 
-@WebService(targetNamespace="http://caelum.com.br/estoquews/v1")
+@WebService
 @Stateless
 public class EstoqueWS {
 

@@ -26,3 +26,15 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-07-28 14:37:08.329
 !MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2018-07-28 15:47:05.565
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2018-07-28 15:47:05.901
+!MESSAGE Server Shutdown Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-07-28 15:47:06.042
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-07-28 15:47:10.381
+!MESSAGE Server Startup Succeeded
