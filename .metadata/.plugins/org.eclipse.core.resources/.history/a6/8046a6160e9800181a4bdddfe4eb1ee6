@@ -1,0 +1,7 @@
+package br.com.caelum.payfast.rest;
+
+@Path("/pagamentos")
+@Singleton
+public class PagamentoResource {
+
+}
