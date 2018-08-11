@@ -1,0 +1,17 @@
+package br.com.caelum.jms;
+
+import javax.jms.ConnectionFactory;
+import javax.jms.Topic;
+import javax.naming.InitialContext;
+
+public class RegistraFinanceiroNoTopico {
+	
+	public static void main(String[] args) {
+		InitialContext	initialContext	=	new	InitialContext();
+		ConnectionFactory	factory	=	(ConnectionFactory)	
+						initialContext.lookup("jms/RemoteConnectionFactory");
+		Topic	topico	=	(Topic)	
+						initialContext.lookup("jms/TOPICO.LIVRARIA");
+	}
+
+}
